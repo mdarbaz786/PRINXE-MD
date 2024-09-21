@@ -27,7 +27,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+global.mods = ['917478172267'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -118,18 +118,18 @@ global.princeImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen
 
 
 // Moderator 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
+global.developer = 'https://wa.me/+917478172267?text=*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-khan📌🧸͢-≛⃞*' //contact
 //💌------------------------------------------💌
 
 
 
 //Sticker WM
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
+global.princebot = '🛡️ARBAZ-𝘉𝘖𝘛-𝘔𝘋🛡️'
 global.packname = process.env.PACK_NAME
 global.author = 'Prince♥️' 
-global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
+global.princeig = 'https://www.instagram.com/mdarbaz738?igsh=MXIyOGh6OXVyZnFpdw==' 
+global.princegp = 'https://wa.me/+917478172267?text=*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-khan📌🧸͢-≛⃞*'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
 global.princeyt = 'https://youtube.com/'
@@ -140,7 +140,7 @@ global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 
 //Reactions
-global.wait = '*📥 `𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂 𝙔𝙊𝙐𝙍 𝙁𝙄𝙇𝙀 𝙒𝘼𝙄𝙏...`*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*📥 `𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙄𝙉𝙂 𝙒𝘼𝙄𝙏...`*\n*▰▰▰▱▱▱▱▱*'
 global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
 global.dmoji = '🤭'
