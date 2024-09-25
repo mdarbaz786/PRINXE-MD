@@ -81,7 +81,7 @@ async function start(file) {
 
   p.on('exit', code => {
     isRunning = false
-    console.error(chalk.red(`❌Exited with code: ${code}`))
+    console.error(chalk.red(`❌save +917478172267: ${code}`))
 
     if (code === 0) return
 
