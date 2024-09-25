@@ -128,12 +128,12 @@ global.botname = process.env.BOT_NAME
 global.princebot = '🛡️𝗔𝗥𝗕𝗔𝗭-𝗠𝗗-𝗕𝗢𝗧🛡️'
 global.packname = process.env.PACK_NAME
 global.author = 'Prince♥️' 
-global.princeig = 'https://www.instagram.com/mdarbaz738?igsh=MXIyOGh6OXVyZnFpdw==' 
+global.princeig = 'https://www.instagram.com/mdarbaz738?igsh=MWt2emw3ZzU4OWF2Yg==' 
 global.princegp = 'https://wa.me/+917478172267?text=*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-khan📌🧸͢-≛⃞*'
-global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
+global.menuvid = 'https://i.imgur.com/z7SwegP.mp4'
+global.Princesc = 'https://wa.me/+917478172267?text=*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-Khan📌🧸‌-≛⃞*' 
 global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
+global.Princelog = 'https://i.imgur.com/sPyPUt5.jpeg'
 global.thumb = fs.readFileSync('./Assets/Prince.png')
 //💌------------------------------------------💌
 
