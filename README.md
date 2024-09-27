@@ -1,5 +1,5 @@
   
-![PRINXE-MD](https://readme-typing-svg.demolab.com?font=Garamond&size=20&pause=998&color=skyblue&background=white&right=true&random=true&width=465&lines=HELLO+EVERYONE👋🏻;WELCOME+TO+PRINCE+MD+💙)
+![Arbaz-MD](https://readme-typing-svg.demolab.com?font=Garamond&size=20&pause=998&color=skyblue&background=white&right=true&random=true&width=465&lines=HELLO+EVERYONE👋🏻;WELCOME+TO+ARBAZ+MD+💙)
   
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -7,7 +7,7 @@
  
  <p align="center">  
   <a href="">
-    <img alt="PRINCE" width="600" height="350" src="https://i.imgur.com/GYm6FuK.jpeg">
+    <img alt="Arbaz" width="600" height="350" src="https://i.imgur.com/GYm6FuK.jpeg">
   </a>
 </p>
 
