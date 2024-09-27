@@ -122,7 +122,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {}
             if (chat) {
                 if (!("antiDelete" in chat)) chat.antiDelete = true
-                if (!("antiLink" in chat)) chat.antiLink = false
+                if (!("antiLink" in chat)) chat.antiLink = true
                 if (!("antiSticker" in chat)) chat.antiSticker = false
                 if (!("antiToxic" in chat)) chat.antiToxic = false
 		if (!('anticall' in chat)) chat.antiCall = false
@@ -137,8 +137,8 @@ export async function handler(chatUpdate) {
                 if (!("sWelcome" in chat)) chat.sWelcome = ""
                 if (!("useDocument" in chat)) chat.useDocument = false
                 if (!("viewOnce" in chat)) chat.viewOnce = false
-                if (!("viewStory" in chat)) chat.viewStory = false
-		if (!('antiBotClone' in chat)) chat.antiBotClone = false
+                if (!("viewStory" in chat)) chat.viewStory = true
+		if (!('antiBotClone' in chat)) chat.antiBotClone = true
                 if (!("welcome" in chat)) chat.welcome = false
                 if (!("chatbot" in chat)) chat.chatbot = false
                 if (!isNumber(chat.expired)) chat.expired = 0
@@ -149,7 +149,7 @@ export async function handler(chatUpdate) {
                     antiCall: false,
                     antiSticker: false,
                     antiToxic: false,
-		    antiBotClone: false,
+		    antiBotClone: true,
                     detect: false,
                     expired: 0,
                     getmsg: true,
@@ -558,8 +558,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/1NV9v9N.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/1NV9v9N.jpeg'; // Assign default image URL
+                  pp = 'https://i.imgur.com/GYm6FuK.jpeg'; // Assign default image URL
+                  ppgp = 'https://i.imgur.com/GYm6FuK.jpeg'; // Assign default image URL
                 } finally {
                   let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
                     .replace('@group', await this.getName(id))
@@ -591,7 +591,7 @@ export async function participantsUpdate({
                         title: global.botname,
                         body: "Welcome",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
+                        sourceUrl: 'https://whatsapp.com/channel/0029VagjpXt3gvWULXD4Fb3h',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
@@ -613,8 +613,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'; // Assign default image URL
-                  ppgp = 'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'; // Assign default image URL
+                  pp = 'https://whatsapp.com/channel/0029VagjpXt3gvWULXD4Fb3h'; // Assign default image URL
+                  ppgp = 'https://whatsapp.com/channel/0029VagjpXt3gvWULXD4Fb3h'; // Assign default image URL
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
