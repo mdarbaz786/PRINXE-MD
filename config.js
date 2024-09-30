@@ -141,7 +141,7 @@ global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 //Reactions
 global.wait = '*📥 `+𝟗𝟏𝟕𝟒𝟕𝟖𝟏𝟕𝟐𝟐𝟔𝟕 𝙒𝘼𝙄𝙏...`*\n*▰▰▰▱▱▱▱▱*'
-global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
+global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 Arbaz ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
 global.dmoji = '🤭'
 global.done = '✅'
